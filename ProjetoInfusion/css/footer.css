@@ -1,0 +1,26 @@
+.footer{
+    background-color: var(--cor-2);
+    padding: 50px 0 250px;
+    color: var(--cor-10); 
+    font-size: 14px;
+}
+.footer__links li {
+    list-style: none;
+}
+.footer__links a {
+    color: var(--cor-10);
+    display: block;
+    font-weight: 600;
+    text-decoration: none;
+}
+.footer__logo{
+    text-transform: uppercase;
+}
+@media(min-width: 1024px){
+    .footer .container{
+        display: flex;
+    }
+    .footer .container > *{
+        margin: 2em;
+    }
+}

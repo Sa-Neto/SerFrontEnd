@@ -1,0 +1,25 @@
+.last-articles__title{
+    background-color: var(--cor-1) ;
+    padding: 5px 0;
+}
+.last-articles__title h2{
+    font-size: 24px;
+    color: var(--cor-0);
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.last-articles__thumbs{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+    grid-auto-rows: auto;
+    grid-gap:0;
+}
+.last-articles__thumbs img{
+    display: block;
+    width:100%
+}
+@media(min-width:1024px){
+    .last-articles__thumbs{
+        grid-template-columns: repeat(6,1fr);
+    }
+}

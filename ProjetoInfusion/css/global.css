@@ -1,0 +1,52 @@
+:root{
+    --cor-0: #fff;
+    --cor-1: #63c6ae;
+    --cor-2: #242a2c;
+    --cor-3: #586165;
+    --cor-4: #242a2c;
+    --cor-5: #737c85;
+    --cor-6: #f8f9f9;
+    --cor-7: #929da5;
+    --cor-8: #455357;
+    --cor-9: #48b9a1;
+    --cor-10: #454e51;
+}
+
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.4;
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+.container{
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 1em;
+    padding-right: 1em;
+    max-width: 980px;
+}
+.button{
+    padding: 15px 40px;
+    border-radius: 3px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 15px;
+    margin-right: 15px;
+    display: inline-block;
+    color: white;
+    transition:  .5s;
+}
+.button:hover{
+    background-color: var(--cor-7);
+}
+.button-primary{
+    background-color: var(--cor-1);
+}
+.button-secondary{
+    background-color: var(--cor-8);
+}

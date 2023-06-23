@@ -1,0 +1,29 @@
+body{
+  margin: 100px auto;
+  background: goldenrod;
+  width: 90%;
+  max-width: 960px;
+}
+.pricing{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+.pricing-plan{
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  background: red;
+  justify-content: center;
+  padding: 30px;
+}
+.pricing-plan__features{
+  flex: 1;
+}
+.pricing-plan__cta{
+  padding: 16px 10px;
+  background-color: blue;
+  text-align: center;
+  color: white;
+]
+}

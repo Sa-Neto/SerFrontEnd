@@ -1,0 +1,45 @@
+.people-cards{
+    margin-top: 2.5em;
+}
+.people-cards__image{
+    width: 100%;
+}
+.people-cards__card:hover{
+    border: 5px solid var(--cor-1);
+    outline-offset: -5px;
+}
+.people-cards__card:hover .people-cards__avatar img{
+    transform: translateY(-50%);
+}
+.people-cards:hover .people-cards__title,
+.people-cards:hover .people-cards__text{
+    color: var(--cor-1);
+}
+.people-cards__avatar{
+    margin: -55px auto;
+    width: 88px;
+    height: 88px;
+    overflow: hidden;
+}
+.people-cards__content{
+    text-align: center;
+    padding: 40px 25px 10px;
+    border-left: 1px solid #dbe1e7;
+}
+.people-cards__title{
+    color: var(--cor-5);
+    font-size: 21px;
+    font-weight: normal;
+}
+.people-cards__text{
+    color: var(--cor-5);
+    font-size: 14px;
+}
+@media(min-width:1024px){
+    .people-cards{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        gap:20px;
+        margin-bottom: none;
+    }
+}
